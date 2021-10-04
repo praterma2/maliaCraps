@@ -1,0 +1,23 @@
+body {
+    background:linear-gradient(90deg,red,purple);
+}
+
+#logindivText{
+    color:black;
+    font-weight:bolder;
+}
+
+#loginTitleText{ 
+    color: yellow;
+    font-style:italic;
+    text-align:center;
+    text-transform: uppercase;
+}
+.blink_me {
+    animation: blinker 1s linear infinite;
+}
+@keyframes blinker { 50%{
+    opacity: 0;
+}
+
+}
