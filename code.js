@@ -1,7 +1,3 @@
-function test(){
-    console.log("test");
-}
-
 function play_craps() {
     console.log("play_crabs()funtion Started");
     var die1 = Math.ceil(Math.random() * 6); //pick a random number from 0-6,it rounds it to the nears whole number, result becomes die1
@@ -97,17 +93,14 @@ function btrBlastOff() {
 
             if (currTime >= 25) {
                 //greater than 25 so only countdown
-                document.getElementById("countDownTimer").innerHTML = currTime; //if contions are true
+                document.getElementById("countdownTimer").innerHTML = currTime; //if contions are true, ++++++++++++++++++++misspelled countdownTimer
             } else if (currTime == 0) {
                 //0 so blastoff
-                document.getElementById("countdowntimer").innerHTML = "Blastoff!"
+                document.getElementById("countdownTimer").innerHTML = "Blastoff!" //++++++++++++++++++misspelled countdownTimer
             } else {
                 //les than 25 so the 1/2 way to launch style
-                document.getElementById("countDownTimer").innerHTML = "half " + currTime; //if contion are not true
-
+                document.getElementById("countdownTimer").innerHTML = "half " + currTime; //if contion are not true, need to finish, +++++++++++++++++ misspelled countdownTimer
             }
-    
-
             currTime = currTime - 5;
         }, i * 5000);
     }
